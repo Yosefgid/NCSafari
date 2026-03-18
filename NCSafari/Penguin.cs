@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
-    internal class Penguin : Bird , IMove
+    public class Penguin : Bird , IMove
     {
         public Penguin(float weight) : base(weight) { } //constructor
         public void Move() //Implementing Interface method

@@ -10,4 +10,9 @@ namespace NCSafari
     {
         void Move();
     }
+    // If we want to declare all the interfaces in one file it's fine. In this case, we did one file(.cs) for each Interface. Best practice?!
+    /*public interface IFly
+    {
+        void Fly();
+    }*/
 }

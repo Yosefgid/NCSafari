@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
-    public abstract class Mammal : Animal
+    internal interface IFly
     {
-        public Mammal(float weight) : base(weight)
+        public void Fly()
         {
+
         }
     }
 }
