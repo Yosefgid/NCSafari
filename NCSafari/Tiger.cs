@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
-    public class Tiger : PantheraBigCat, IMove
+    public class Tiger : PantheraBigCat, IHunt
     {
         public Tiger(float weight) : base(weight)
         {
@@ -16,9 +16,9 @@ namespace NCSafari
 
         //We have to implemnt IMove method Move() by declaring it, otherwise error
 
-        public void Move()
+        public void Hunt()
         {
-            Console.WriteLine("Tiger is Moving!");
+            Console.WriteLine(this.GetType().Name + "Tiger is hunting!");
         }
 
     }
