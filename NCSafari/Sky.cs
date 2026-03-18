@@ -14,7 +14,7 @@ namespace NCSafari
             {
                 if(animal is IFly flyingAnimal)
                 {
-                    flyingAnimal.Fly();
+                    flyingAnimal.Fly(); 
                 }
             }
             
