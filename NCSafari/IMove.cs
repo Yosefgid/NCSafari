@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace NCSafari
 {
+    [Obsolete("IMove is now obsolete, please use IFly / ISwim / IHunt", true)] // Using true as we want this to "throw an error if this interface is used"
     public interface IMove
     {
         void Move();
