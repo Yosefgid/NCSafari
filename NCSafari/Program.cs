@@ -9,18 +9,25 @@
             Goose jeff = new Goose(3);
             Bat betty = new Bat(0.7f);
 
-            Sky sky = new Sky();
-            sky.AddAnimalInEnvironment(betty);
-            sky.AddAnimalInEnvironment(jeff);
+            //Sky sky = new Sky();
+            //sky.AddAnimalInEnvironment(betty);
+            //sky.AddAnimalInEnvironment(jeff);
 
-            sky.CheckAnimalsInEnvironment();
+            //sky.CheckAnimalsInEnvironment();
 
-            Water water = new Water();
-            water.AddAnimalInEnvironment(penny);
-            water.AddAnimalInEnvironment(jeff);
-            water.AddAnimalInEnvironment(fluffy);
+            //Water water = new Water();
+            //water.AddAnimalInEnvironment(penny);
+            //water.AddAnimalInEnvironment(jeff);
+            //water.AddAnimalInEnvironment(fluffy); //testing out some class that doesn't have a Swim() method implemented
 
-            water.CheckAnimalsInEnvironment();
+            //water.CheckAnimalsInEnvironment();
+
+            HuntingGround hunting = new HuntingGround();
+            hunting.AddAnimalInEnvironment(betty);
+            hunting.AddAnimalInEnvironment(fluffy);
+            hunting.AddAnimalInEnvironment(penny);
+
+            hunting.CheckAnimalsInEnvironment();
 
         }
     }
